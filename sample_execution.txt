@@ -1,0 +1,28 @@
+SAMPLE EXECUTION
+
+Command:
+python main.py
+
+Result:
+
+Books to Scrape: 1000
+Quotes to Scrape: 100
+Cleaned records: 1100
+Valid records: 1100
+Rejected records: 0
+Duplicates removed: 1
+Final records: 1099
+
+Output files created:
+
+output/final_dataset.csv
+output/summary_report.json
+logs/scraper.log
+
+Unit Tests:
+
+Command:
+pytest -v
+
+Result:
+10 passed
